@@ -4,7 +4,7 @@ let counter = 0;
 const bubbleMaker = () => {
   const bubble = document.createElement("span");
 
-  bubble.classList.add("bubble");
+  bubble.classList.add("bubble generator");
   document.body.appendChild(bubble);
 
   const size = Math.random() * 200 + 100 + "px";
